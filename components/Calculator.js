@@ -51,6 +51,7 @@ const Calculator = () => {
               placeholder="0"
               name="totalBillValue"
               id="totalBill"
+              value={form.totalBillValue}
               onChange={handleChange}
             />
           </div>
@@ -117,6 +118,7 @@ const Calculator = () => {
                 placeholder="Custom"
                 id="totalTipPercentage"
                 name="tip"
+                value={form.tip}
                 onChange={handleChange}
               ></input>
             </div>
@@ -137,6 +139,7 @@ const Calculator = () => {
               placeholder="1"
               name="numberOfPeople"
               id="numberOfPeople"
+              value={form.numberOfPeople}
               onChange={handleChange}
             />
           </div>
