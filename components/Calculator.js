@@ -4,8 +4,8 @@ const Calculator = () => {
   // TODO: start coding here!
 
   const [form, setForm] = useState({
-    totalBillValue: 0,
-    tip: 0,
+    totalBillValue: "",
+    tip: "",
     numberOfPeople: 1,
   });
 
@@ -24,7 +24,7 @@ const Calculator = () => {
     }
   };
   const handleReset = () => {
-    setForm({ totalBillValue: 0, tip: 0, numberOfPeople: 1 });
+    setForm({ totalBillValue: "", tip: "", numberOfPeople: 1 });
   };
 
   return (
