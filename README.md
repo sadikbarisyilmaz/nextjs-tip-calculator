@@ -1,4 +1,4 @@
-[Live Link](https://imz1df-3000.csb.app/](https://nextjs-tip-calculator-lime.vercel.app/)
+[Live Link](https://nextjs-tip-calculator-lime.vercel.app/)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
